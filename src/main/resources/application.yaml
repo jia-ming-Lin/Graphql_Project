@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Graphql Project
+
+server:
+  http2:
+    enabled: true
+
+graphql:
+  servlet:
+    maxQueryDepth: 5
